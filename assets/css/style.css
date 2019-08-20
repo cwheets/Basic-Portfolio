@@ -1,0 +1,11 @@
+.plate {
+    background-color: teal;
+    height: 40px;
+    width: 100px;
+}
+.name {
+    color: white;
+}
+p {
+    color: blue;
+}
