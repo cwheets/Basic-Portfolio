@@ -1,0 +1,62 @@
+.topPlate {
+    height: 100px;
+    background-color: whitesmoke;
+    margin-top: 0%;
+    border-bottom: 2px grey solid;
+}
+.namePlate {
+    background-color: teal;
+    height: 100px;
+    width: 330px;
+    border: 3px;
+    float: left;
+    margin-left: 20%;
+    margin-top: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.name {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    
+    
+}
+.linkbox {
+    font-size: 20px;
+    margin-left: 430px;
+    margin-top: 27px;
+    float: left;
+    padding: 10px;
+    color: grey;
+    
+}
+link{
+    color: grey;
+}
+.main {
+    width: 940px;
+    padding:20px;
+    height: 0 auto;
+    margin-top: 150px;
+    margin-left: 20%;
+    border: 1px grey solid; 
+    clear: both;
+
+}
+body {
+    margin: 0px;
+}
+.header {
+    color: teal;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 2px grey solid;
+}
+img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
