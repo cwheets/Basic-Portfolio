@@ -1,3 +1,6 @@
+body {
+    margin: 0px;
+}
 .topPlate {
     height: 100px;
     background-color: #ffffff;
@@ -29,6 +32,7 @@
     float: left;
     padding: 10px;
     color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 link{
@@ -40,28 +44,27 @@ link{
     height: 0 auto;
     margin-top: 150px;
     margin-left: 20%;
-    border: 1px #cccccc solid; 
+    border: 1px #dddddd solid; 
     clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
 
-}
-body {
-    margin: 0px;
-}
 .header {
     color: #4aaaa5;
     margin-bottom: 30px;
     margin-top: 10px;
     padding-bottom: 25px;
     border-bottom: 2px #cccccc solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 img {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-   
-
-    
-
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .inputs {
     width: 100%;
@@ -88,7 +91,7 @@ textarea {
 .footer2 {
     width: 100%;
     height: 20px;
-    background-color: #cccccc;
+    background-color: #666666;
     position: fixed;
     left: 0;
     bottom: 0;
