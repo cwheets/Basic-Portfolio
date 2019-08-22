@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    background: url(../images/memphis-mini-dark.png);
+    position: relative;
 }
 .topPlate {
     height: 100px;
@@ -27,7 +29,7 @@ body {
 }
 .linkbox {
     font-size: 20px;
-    margin-left: 430px;
+    margin-left: 415px;
     margin-top: 27px;
     float: left;
     padding: 10px;
@@ -44,10 +46,12 @@ link{
     height: 0 auto;
     margin-top: 150px;
     margin-left: 20%;
+    margin-bottom: 80px;
     border: 1px #dddddd solid; 
     clear: both;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    background-color: #ffffff;
 }
 
 .header {
@@ -57,11 +61,12 @@ link{
     padding-bottom: 25px;
     border-bottom: 2px #cccccc solid;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 img {
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-bottom: 20px;
 }
 form{
     font-family: Arial, Helvetica, sans-serif;
@@ -84,8 +89,9 @@ textarea {
     height: 4px;
     background-color: #4aaaa5;
     position: fixed;
-    left: 0;
+    left: 0%;
     bottom: 20px;
+    z-index: 100;
     
 }
 .footer2 {
@@ -93,7 +99,92 @@ textarea {
     height: 20px;
     background-color: #666666;
     position: fixed;
-    left: 0;
-    bottom: 0;
+    left: 0%;
+    bottom: 0%;
+    z-index: 100;
+}
+#portmain {
+        height: 1050px;
+        width: 940px;
+        padding:20px;
+        height: 0 auto;
+        margin-top: 150px;
+        margin-left: 20%;
+        margin-bottom: 80px;
+        border: 1px #dddddd solid; 
+        clear: both;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        background-color: #ffffff;
 
+}
+#imagebox {
+    margin:0;
+    padding:0;
+    display: grid;
+    position: relative;
+}
+.kitty{
+    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+#d1 {
+    width: 325px;
+    height: 50px;
+    background-color: #4aaaa5;
+    z-index: 10;
+    position: absolute;
+    bottom: 53%;
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#d2 {
+    width: 325px;
+    height: 50px;
+    background-color: #4aaaa5;
+    z-index: 10;
+    position: absolute;
+    bottom: 53%;
+    right: 32.32%;
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#d3 {
+    width: 325px;
+    height: 50px;
+    background-color: #4aaaa5;
+    z-index: 10;
+    position: absolute;
+    bottom: 30.33%;
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#d4 {
+    width: 325px;
+    height: 50px;
+    background-color: #4aaaa5;
+    z-index: 10;
+    position: absolute;
+    bottom: 30.33%;
+    right: 32.32%;
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#d5 {
+    width: 325px;
+    height: 50px;
+    background-color: #4aaaa5;
+    z-index: 10;
+    position: absolute;
+    bottom: 7.5%;
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
